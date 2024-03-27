@@ -37,7 +37,7 @@ def generarPseudoAleatorios():
 
     try:
         xi_generados = GenCon.contruirNumeroEspecificos(obtenerSemilla(),m,obtenerA(),obtenerC(m))
-        ri_generados = GenCon.crearRiAvanzadoCon("",len(xi_generados), xi_generados)
+        ri_generados = GenCon.crearRiAvanzadoCon("",m, xi_generados)
 
     except:
         print("Usando numeros de reserva, cuidado con iteraciones muy largas - SOLO PARA PRUEBAS!")

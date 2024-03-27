@@ -22,6 +22,8 @@ def getXi(semilla, paridad, avanzado,k,c,g,m,a):
 
 def contruirNumeroEspecificos(semilla,m,a,c):
 
+    xi.clear()
+    
     if m >= 0 and a >= 0 and c >= 0:
 
         crearPrimerfilaXi(semilla, c, a, m)
